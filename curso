@@ -1,0 +1,70 @@
+
+public class Curso {
+	private String Nombre;
+	private int Creditos;
+	private int Salon;
+	private String Profesor;
+	private String Horario;
+	
+	
+	
+	public Curso(String nombre,int creditos,int salon,String profesor,String horario){
+		this.Creditos = creditos;
+		this.Nombre = nombre;
+		this.Salon = salon;
+		this.Profesor = profesor;
+		this.Horario=horario;
+				
+	}
+	
+	
+	public String getNombre() {
+		return Nombre;
+	}
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+
+
+	public int getCreditos() {
+		return Creditos;
+	}
+
+
+	public void setCreditos(int creditos) {
+		Creditos = creditos;
+	}
+
+
+	public int getSalon() {
+		return Salon;
+	}
+
+
+	public void setSalon(int salon) {
+		Salon = salon;
+	}
+
+
+	public String getProfesor() {
+		return Profesor;
+	}
+
+
+	public void setProfesor(String profesor) {
+		Profesor = profesor;
+	}
+
+
+	public String getHorario() {
+		return Horario;
+	}
+
+
+	public void setHorario(String horario) {
+		Horario = horario;
+	}
+	
+	
+}
+
